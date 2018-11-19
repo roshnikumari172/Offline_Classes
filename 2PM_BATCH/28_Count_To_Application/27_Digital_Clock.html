@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Digital Clock</title>
+    <link rel="stylesheet" href="28_styles.css">
+</head>
+<body>
+
+    <!-- JS Digital Clock -->
+    <section class="digital-section">
+
+        <article class="digital-article">
+            <h1>
+                <span class="timer" data-from="100" data-to="1800"
+                      data-speed="5000" data-refresh-interval="50"></span>
+            </h1>
+            <h3>Students Trained</h3>
+        </article>
+
+        <article class="digital-article">
+            <h1>
+                <span class="timer" data-from="1000" data-to="25472"
+                      data-speed="5000" data-refresh-interval="75"></span>
+            </h1>
+            <h3>Lines of Code</h3>
+        </article>
+
+        <article class="digital-article">
+            <h1>
+                <span class="timer" data-from="1000" data-to="574855"
+                      data-speed="5000" data-refresh-interval="100"></span>
+            </h1>
+            <h3>Downloads</h3>
+        </article>
+
+    </section>
+
+<script src="jquery.js"></script>
+<script src="count_to.js"></script>
+<script src="28_script.js"></script>
+<script type="text/javascript">
+    $('.timer').countTo();
+</script>
+</body>
+</html>

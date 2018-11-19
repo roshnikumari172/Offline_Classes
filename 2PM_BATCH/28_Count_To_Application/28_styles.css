@@ -1,0 +1,28 @@
+body{
+    background: white url("image5.jpeg") no-repeat fixed bottom;
+    font-family: "Old English Text MT", sans-serif;
+    font-size: 30px;
+}
+.digital-section{
+    text-align: center;
+}
+.digital-article{
+    width: 300px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    margin: 150px 10px 0 10px ;
+    border-radius: 10px;
+    box-shadow: 0 0 15px white;
+    padding: 10px;
+}
+.digital-article h1{
+    font-size: 60px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-shadow: 0 0 15px red;
+}
+.digital-article h3{
+    margin: 5px;
+}
